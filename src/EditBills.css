@@ -1,0 +1,62 @@
+.editBills {
+   display: flex;
+   flex-direction: column;
+   gap: 1rem;
+}
+
+.editBill_row {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+
+.editBill_row > .right {
+   display: flex;
+   gap: 2rem;
+}
+
+.editBill_row > .right > input {
+   padding: 8px ;
+   font-weight: 500;
+   width: 100%;
+}
+
+.edit__btn {
+   padding: 10px 2rem ;
+   background-color: #114170;
+   color: white;
+   cursor: pointer;
+   border: none;
+   border-radius: 4px;
+
+}
+
+.billTotal, .billSaved {
+   font-weight: 500;
+}
+
+.total__cost {
+ margin-left: 10px;
+}
+
+.delete__button {
+   padding: 8px 2rem;
+   background-color: #114170;
+   color: white;
+   border-radius: 4px;
+   cursor: pointer;
+   margin: 0;
+}
+
+.editBill__title {
+   font-weight: 500;
+}
+
+@media screen and (max-width: 600px) {
+   .editBill_row > .right > input {
+      
+      width: 100px;
+   }
+
+   
+}

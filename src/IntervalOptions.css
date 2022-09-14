@@ -1,0 +1,26 @@
+.intervalOptions {
+   display: flex;
+   margin-bottom: 1rem;
+   align-items: center;
+   color: whitesmoke;
+   gap: 1rem;
+   flex-wrap: wrap;
+   justify-content: center;
+   
+}
+
+.interval {
+   padding: 6px 2rem;
+   font-weight: 500;
+   background-color: #1c2c5cd5;
+   cursor: pointer;
+   border-radius: 4px;
+}
+
+.selectedInterval {
+   padding: 6px 2rem;
+   font-weight: 500;
+   background-color: #114170;
+   cursor: pointer;
+   border-radius: 4px;
+}

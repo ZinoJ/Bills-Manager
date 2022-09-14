@@ -1,5 +1,5 @@
 {
-  "name": "chat_engine",
+  "name": "bills-manager",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

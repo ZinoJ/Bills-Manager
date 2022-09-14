@@ -1,0 +1,20 @@
+.addBill > form {
+   display: flex;
+   flex-direction: column;
+   gap: 1rem;
+}
+
+.addBill > form > input {
+   padding: 8px;
+   border-radius: 4px;
+}
+
+.addBill > form > button {
+   padding: 10px 0;
+   border: none;
+   color: whitesmoke;
+   border-radius: 4px;
+   background-color: #114170;
+   font-weight: 550;
+   font-size: 1rem;
+}
