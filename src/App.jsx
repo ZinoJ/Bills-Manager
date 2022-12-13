@@ -12,7 +12,7 @@ function App() {
 
   return (
     <div className="bills__container">
-      <h3>MANAGE YOUR BILLS NOW</h3>
+      <h3>SHEY YOU DE WHINE ME</h3>
       {editModeEnabled ? (
         <EditBills />
       ) : (
